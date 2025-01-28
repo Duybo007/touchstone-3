@@ -77,8 +77,8 @@ export default function Home() {
       <div className="pb-5 flex justify-between">
         <div className="p-8 border w-1/3">
           <p>
-            "I've never felt stronger or more confident! The trainers are
-            supportive, and the classes are so much fun. Highly recommend!"
+            &quot;I've never felt stronger or more confident! The trainers are
+            supportive, and the classes are so much fun. Highly recommend!&quot;
           </p>
           <div className="pt-4 flex items-center gap-4">
             <img
@@ -92,8 +92,8 @@ export default function Home() {
 
         <div className="p-8 border w-1/3">
           <p>
-            "Joining this studio transformed my fitness journey. The community
-            is incredible, and I look forward to every session."
+            &quot;Joining this studio transformed my fitness journey. The
+            community is incredible, and I look forward to every session.&quot;
           </p>
           <div className="pt-4 flex items-center gap-4">
             <img
