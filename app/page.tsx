@@ -14,7 +14,7 @@ export default function Home() {
           <h6 className="text-xl">Personalized Training Plans</h6>
           <p>
             Get tailored workout routines that align with your fitness goals,
-            whether you're aiming to lose weight, build muscle, or improve
+            whether you&apos;re aiming to lose weight, build muscle, or improve
             overall health.
           </p>
         </div>
@@ -77,7 +77,7 @@ export default function Home() {
       <div className="pb-5 flex justify-between">
         <div className="p-8 border w-1/3">
           <p>
-            &quot;I've never felt stronger or more confident! The trainers are
+            &quot;I&apos;ve never felt stronger or more confident! The trainers are
             supportive, and the classes are so much fun. Highly recommend!&quot;
           </p>
           <div className="pt-4 flex items-center gap-4">
