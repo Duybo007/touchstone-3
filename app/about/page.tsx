@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from "react";
 
-function page() {
+function Page() {
   const [formData, setFormData] = useState({
     email: "",
     name: "",
@@ -153,4 +153,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
