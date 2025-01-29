@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 
 function Page() {
@@ -9,7 +9,9 @@ function Page() {
     message: "",
   });
 
-  const handleChange = (e: any) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { id, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
@@ -17,7 +19,7 @@ function Page() {
     }));
   };
 
-  const handleSubmit = (e: any) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault(); // Prevent page reload
     localStorage.setItem("contactForm", JSON.stringify(formData)); // Save to localStorage
     alert("Your message has been saved in local storage!"); // Optional feedback to user
